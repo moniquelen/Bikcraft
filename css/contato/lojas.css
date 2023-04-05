@@ -46,22 +46,41 @@
   gap: 8px;
 }
 
-@media (max-width: 800px) {
+.mapa {
+  width: 560px;
+  height: 220px;
+}
+
+@media (max-width: 1200px) {
   .lojas {
     gap: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
+    grid-template-columns: 560px;
+    justify-content: center;
   }
   .lojas h2 {
     margin-bottom: 32px;
-  }
-  .lojas-conteudo {
-    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 600px) {
   .lojas {
+    grid-template-columns: 400px;
+  }
+  .mapa {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .lojas {
     grid-template-columns: 1fr;
+  }
+  .lojas-dados {
+    grid-column: 1;
+  }
+  .mapa {
+    display: none;
   }
 }

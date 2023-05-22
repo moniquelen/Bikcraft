@@ -13,9 +13,6 @@ Para acessar o site clique [aqui](https://moniquelen.github.io/Bikcraft/).
 - CSS
 - JavaScript
 
-## 📄 Projeto
-Projeto desenvolvido junto com o curso de HTML e CSS da Origamid.
-
 ## 💻 Layouts
 - Tela inicial do site:
 <img src="projeto_sobre/gif-inicial.gif" width="70%">
